@@ -1,0 +1,102 @@
+*
+{
+    margin:0%;
+    background-color: black;
+}
+
+h1
+{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    padding: 20px;
+}
+
+.div
+{
+    margin:10px;
+    background-color: bisque;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 20px;
+    height:250px;
+    text-align: center;
+    width: 22%;
+    border-radius: 25px;
+}
+
+
+#overlay1
+{
+    background-color: black;
+    opacity:0.8;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    display: none;
+    z-index: 1;
+}
+
+.commondiv
+{
+    margin:10px;
+    left:33%;
+    top:20%;
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    border-radius: 25px;
+    position:absolute;
+    z-index: 2;
+    box-shadow: 50px 50px 50px black;
+}
+
+#div1
+{
+    display: none;
+}
+
+#div2
+{
+    display: none;
+}
+
+#div3
+{
+    display: none;
+}
+
+#div4
+{
+    display: none;
+}
+
+#div5
+{
+    display: none;
+}
+
+#div6
+{
+    display: none;
+}
+
+#div7
+{
+    display: none;
+}
+
+#div8
+{
+    display: none;
+}
+
+h3
+{
+    background-color: bisque;
+}
+
+
+

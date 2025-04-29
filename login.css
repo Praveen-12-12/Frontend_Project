@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+#loginbody {
+    top: 0;
+    margin: 0%;
+    background-color: #F5F7FA;
+}
+
+#title {
+    top: 0;
+    background-color: #2D3436;
+    color: azure;
+    text-align: center;
+    padding:20px;
+}
+
+.textclass {
+    display: inline-block;
+    margin: 50px;
+}
+
+#logindiv {
+    background-color: bisque;
+    margin: 90px;
+    width: 50%;
+    height: 55%;
+    padding: 30px;
+    border-radius: 100px;
+    display: block;
+    box-shadow: 5px 5px 10px 1px gray;
+}
+
+.boxclass {
+    width: 60%;
+    height: 35px;
+}
+
+button,input[type="submit"]
+{
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: azure;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+button:hover, input[type="submit"]:hover
+{
+    border: 1px solid gray;
+    box-shadow: 1px 1px 5px gray;
+}
+
+button:active, input[type="submit"]:active
+{
+    box-shadow: none;
+}
+
+#textdiv {
+    padding-top: 10px;
+}
+
+#textbox {
+    border: none;
+    background-color: azure;
+    border-radius: 30px;
+}
+
+#passbox {
+    border: none;
+    background-color: azure;
+    border-radius: 30px;
+}
+
+/* #passdiv
+{
+    
+} */
+
+#overlay
+{
+    /* top: 0; */
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    position: fixed;
+    display: none;
+}
+
+#regdiv
+{
+    left: 25%;
+    top: 24%;
+    /* background-color: bisque; */
+    background-color: rgb(0, 152, 152);
+    width: 50%;
+    height: 55%;
+    padding: 30px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px 1px gray;
+    position: fixed;
+    display: none;
+}
+
+#regtab,td
+{
+    padding-left: 0;
+    padding-top: 9%;
+    margin-bottom: 7%;
+}
+
+.regbox
+{
+    /* margin-left: 50%; */
+    border: none;
+    background-color: azure;
+    border-radius: 30px;
+    width: 60%;
+    height: 35px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.regh
+{
+    left: 40%;
+    display: inline-block;
+}
+
+#regtext
+{
+    padding-bottom: 10%;
+}

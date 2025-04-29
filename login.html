@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>📱Mobiza</title>
+    <link rel="stylesheet" href="login.css" />
+    <script src="login.js"></script>
+</head>
+
+<body id="loginbody">
+    <div id="overlay"></div>
+    <h1 id="title">MOBIZA</h1>
+    <center>
+        <form action="/login.php">
+        <div id="logindiv">
+            <div id="textdiv">
+                <h1 class="textclass">Username:</h1>
+                <input type="text" name="username" id="textbox" class="boxclass" />
+            </div>
+            <div id="passdiv">
+                <h1 class="textclass">Password:</h1>
+                <input type="password" name="password" id="passbox" class="boxclass" />
+            </div>
+            <button type="button" id="register">Register</button>
+            <button type="submit" id="login">Login</button>
+        </div>
+    </form>
+    </center>
+    <center>
+    <div id="regdiv">
+        
+        <form id="regform" action="register.php" method="post" >
+            
+                <div id="regtab">
+                    <div id="regtext">
+                        <h1 class="regh">Username:</h1>
+                        <input type="text" name="username" class="regbox" name="Username"/>
+                    </div>
+                    <div id="regpass">
+                        <h1 class="regh">Password:</h1>
+                        <input type="password" name="password" class="regbox" name="password"/>
+                    </div>
+                </div>
+            <button type="button" id="cancel">Cancel</button>
+            <button type="submit">Register</button>
+        </form>
+    
+    </div>
+</center>
+</body>
+
+</html>
